@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Pinkify",
+  "version": "1.0",
+  "description": "Convert any page to a pinkish page 💖",
+  "icons": {
+    "48": "icons/pinkify-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["pinkify.js"]
+    }
+  ]
+}

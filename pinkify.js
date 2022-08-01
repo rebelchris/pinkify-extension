@@ -1,0 +1,1 @@
+document.body.style.setProperty('background', '#FDF2F7');
